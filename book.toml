@@ -1,0 +1,18 @@
+[book]
+authors = ["Omar Shehata"]
+language = "en"
+src = "src"
+title = "Anatomy of an Internet Argument"
+
+[output.html]
+site-url = "/internet-court/"
+edit-url-template = "https://github.com/Prosocial-Engineering/internet-court/edit/main/{path}"
+git-repository-url = "https://github.com/Prosocial-Engineering/internet-court"
+default-theme = "ayu"
+
+[output.html.print]
+enable = false
+
+[output.html.fold]
+enable = true
+level = 0
